@@ -1,5 +1,5 @@
 const { test, expect } = require('@jest/globals');
-const Manager = require('./Manager');
+const Manager = require('../lib/Manager');
 const manager = new Manager('Ronnie', "3535035", 'ronniejs@gmail.com', '505');
 
 test('test if we can get the constructor values for the manager object', () => {

@@ -1,6 +1,6 @@
 // take our test questions using jest
 const { expect, test } = require('@jest/globals');
-const Employee = require('./Employee');
+const Employee = require('../lib/Employee');
 const employee = new Employee('Ronnie', '3535035', 'ronniejs@gmail.com');
 
 test('test if we can get the constructor values for the employee object', () => {
