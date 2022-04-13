@@ -20,3 +20,8 @@ main{
     background-color: midnightblue;
 
 }
+
+.card {
+    padding: 10px;
+    margin: 15px;
+}
