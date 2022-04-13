@@ -53,3 +53,16 @@ const generateTeam = (team) => {
             `;
         html.push(internHtml);
     }
+    // adding a loop for all employees
+    for (let i = 0; i < team.lenght; i++) {
+        if (team[i].getRole() === "Manager")
+            generateManager(team[i]);
+    }
+    if (team[i].getRole() === "Engineer") {
+        generateManager(team[i]);
+    }
+    if (team[i].getRole() === "Intern") {
+        generateManager(team[i]);
+    }
+}
+
