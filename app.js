@@ -214,7 +214,7 @@ const buildTeam = () => {
     if (!fs.existsSync(OUTPUT_DIR)) {
      fs.mkdirSync(OUTPUT_DIR)
     }
-    fs.writeFileSynch(outputPath, generateSite(teamMembers),"utf-8");
+    fs.writeFileSync(outputPath, generateSite(teamMembers),"utf-8");
 }
 
 promtManager();
